@@ -1,161 +1,65 @@
-# MediaCenter
+# Current Development Focus
 
-A modular, Raspberry Pi powered home theater system designed to replace commercial TV streaming boxes with an open, customizable, and family-friendly experience.
+The current objective is to build a polished, appliance-like streaming experience for Raspberry Pi.
 
-MediaCenter provides a simple interface for launching streaming services, game streaming applications, and utilities while remaining lightweight, reliable, and easy to expand.
+Version 2 development focuses on simplifying the interface while improving reliability and usability.
 
----
+## Current Goals
 
-# Project Goals
-
-The goal of MediaCenter is to build a polished media experience that anyone in the house can use without needing to understand Linux or Raspberry Pi.
-
-Core design goals include:
-
-- One-click access to entertainment
-- Fast and responsive interface
-- Modular architecture
-- Offline capability
-- Easy installation on a fresh Raspberry Pi
-- Reliable long-term operation
-- Expandable feature set without redesigning the project
-
-Ultimately, MediaCenter aims to become an all-in-one entertainment hub capable of replacing commercial streaming devices while remaining completely customizable.
+- Simplified full-screen home screen
+- Large remote-friendly buttons
+- Improved launcher architecture
+- Physical Home button support
+- Better memory management
+- Simplified Settings menu
+- Faster startup
+- Improved error handling
 
 ---
 
-# Current Features
+# Active Feature Branches
 
-### Streaming
-
-- Netflix
-- Hulu
-- Prime Video
-- HBO Max
-- Peacock
-- Paramount+
-- YouTube
-- YouTube Music
-
-### Gaming
-
-- Steam Link
-- Moonlight Game Streaming
-- RetroArch launcher
-
-### User Interface
-
-- Modern PyQt6 interface
-- Category tabs
-- Favorites page
-- Random rotating background images
-- Status bar
-- Error popup notifications
-- Browser launcher
-
-### Utilities
-
-- Bluetooth Manager
-- Network Status
-- Storage Manager
-- Controller Status
-- Application Status
-- Log Viewer
-- System Status
-- Device Manager
-- Reboot
-- Shutdown
-
-### Installer
-
-- Automatic directory creation
-- Dependency installation
-- Permission configuration
-- Desktop launcher
-- Update script
-- Backup and restore scripts
+| Branch | Status | Description |
+|---------|--------|-------------|
+| develop | Active | Integration branch |
+| feature/new-ui | Planned | New appliance-style interface |
+| feature/home-button | Planned | Physical Home button support |
+| feature/bluetooth | Planned | Bluetooth headphone support |
 
 ---
 
-# Features Built But Currently Disabled
+# Development Philosophy
 
-These systems already exist in the project but are not enabled in the current build while the core experience is being completed.
+Every feature should meet the following goals before merging into `main`:
 
-- Home Automation
-- Security Dashboard
-- Photo Viewer
-- Automatic Startup
-- Update Menu
+- Stable
+- Modular
+- Tested on Raspberry Pi hardware
+- Family-friendly
+- Well documented
+- Easy to maintain
 
-These modules were intentionally disabled to keep Version 1 focused and stable.
+Features are merged only after successful testing on physical hardware.
 
 ---
 
-# Planned Features
+# Roadmap
 
-## Near Term
+## In Progress
 
-- Bluetooth headphone support
-- Physical Home button
-- Better Settings menu
-- Improved Favorites management
-- Fullscreen kiosk mode
-- Improved controller support
-- Better error reporting
+- Simplified UI redesign
 
-## Future Versions
+## Next
+
+- Home button support
+- Bluetooth improvements
+- Favorites redesign
+- Settings cleanup
+
+## Future
 
 - User profiles
-- Local movie library
-- Retro game library
-- Emulation management
+- Local media library
 - Offline mode
-- Automatic updates
-- Theme support
-- Weather widget improvements
-- Remote management
 - Plugin system
-
----
-
-# Design Philosophy
-
-MediaCenter is built around several guiding principles.
-
-## Modular
-
-Every major feature should exist as an independent module that can be added, removed, or upgraded without affecting the rest of the system.
-
-## Family Friendly
-
-If someone can operate a Roku, they should be able to operate MediaCenter.
-
-## Lightweight
-
-The project should run well on affordable Raspberry Pi hardware without unnecessary background services.
-
-## Open
-
-Everything should be understandable, customizable, and easy to improve.
-
----
-
-# Current Status
-
-Version 1 is focused on creating a stable replacement for a commercial streaming box.
-
-Once that goal is complete, additional modules such as home automation, security, retro gaming, and advanced customization will be added incrementally.
-
----
-
-# Contributing
-
-Contributions, ideas, feature requests, and bug reports are welcome.
-
-As the project grows, development guidelines and contribution documentation will be expanded.
-
----
-
-# License
-
-License information will be added before the first public release.
+- Theme support
