@@ -1,0 +1,36 @@
+Phase 1 - Foundation
+[X] Folder Structure
+[X] Dashboard
+[X] Logging
+[X] Installer
+[X] Utilities
+
+Phase 2 - Hardware
+[ ] PS4 Controller
+[ ] PS3 Controller
+[ ] Retro Controllers
+[ ] Bluetooth Testing
+
+Phase 3 - Gaming
+[ ] Steam Link
+[ ] Moonlight
+[ ] RetroArch
+
+Phase 4 - Streaming
+[ ] Netflix
+[ ] Hulu
+[ ] Max
+[ ] Prime Video
+[ ] YouTube
+[ ] YouTube Music
+
+Phase 5 - Security
+[ ] Ring Integration
+
+Phase 6 - UI
+[ ] Remote Navigation
+[ ] Graphical Interface
+
+Phase 7 - Deployment
+[ ] Guest Room Pi
+[ ] Nerd Cave Pi
