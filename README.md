@@ -61,5 +61,18 @@ Features are merged only after successful testing on physical hardware.
 - User profiles
 - Local media library
 - Offline mode
+
+- # Development Standards
+
+MediaCenter follows several guiding principles:
+
+- Modular architecture
+- NASA-inspired coding practices
+- Small, maintainable functions
+- Clear version headers in every file
+- Named constants instead of magic numbers
+- Configuration separated from implementation
+- Test on Windows before Raspberry Pi deployment
+- Test on Raspberry Pi before merging into `main`
 - Plugin system
 - Theme support
