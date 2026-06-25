@@ -62,6 +62,8 @@ Features are merged only after successful testing on physical hardware.
 - Local media library
 - Offline mode
 
+---
+
 # Development Standards
 
 MediaCenter follows several guiding principles:
