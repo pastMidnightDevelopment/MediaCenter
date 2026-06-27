@@ -16,6 +16,9 @@ while true; do
   echo "6) YouTube Music"
   echo "7) Peacock"
   echo "8) Paramount+"
+  echo "9) Audible"
+  echo "10) Amazon Music"
+  echo "11) Let's Make Art"
   echo "0) Back"
   echo ""
 
@@ -30,6 +33,9 @@ while true; do
     6) "$STREAMING_DIR/youtubemusic.sh" ;;
     7) "$STREAMING_DIR/peacock.sh" ;;
     8) "$STREAMING_DIR/paramount.sh" ;;
+    9) "$STREAMING_DIR/audible.sh" ;;
+    10) "$STREAMING_DIR/amazonmusic.sh" ;;
+    11) "$STREAMING_DIR/letsmakeart.sh" ;;
     0) exit ;;
     *) echo "Invalid option"; sleep 1 ;;
   esac
